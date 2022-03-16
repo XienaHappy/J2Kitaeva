@@ -10,8 +10,8 @@ import java.util.Random;
 public class MainHW5 {
     public static ArrayList<HW5FileObject> hw5fileObjectArrayList = new ArrayList<>();
     public static final String pathToFile = "src/J2KitaevaHW5/KitaevaJavaHW5.csv";
-    public static final String title = "value1"+ ";" + "value2"
-            + ";" + "value3" + ";"+ System.getProperty(" ");
+    public static final String title = "cats"+ ";" + "dogs"
+            + ";" + "flowers" + ";"+ System.getProperty(" ");
 
     public static void main(String[] args) throws IOException {
         createHW5FileObjects();
